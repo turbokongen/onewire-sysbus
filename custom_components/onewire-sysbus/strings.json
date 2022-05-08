@@ -1,0 +1,53 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_path": "Directory not found."
+    },
+    "step": {
+      "owserver": {
+        "data": {
+          "host": "[%key:common::config_flow::data::host%]",
+          "port": "[%key:common::config_flow::data::port%]"
+        },
+        "title": "Set owserver details"
+      },
+      "user": {
+        "data": {
+          "type": "Connection type"
+        },
+        "title": "Set up 1-Wire"
+      }
+    }
+  },
+  "options": {
+    "error": {
+      "device_not_selected": "Select devices to configure"
+    },
+    "step": {
+      "ack_no_options": {
+        "data": {},
+        "description": "There are no options for the SysBus implementation",
+        "title": "OneWire SysBus Options"
+      },
+      "device_selection": {
+        "data": {
+          "clear_device_options": "Clear all device configurations",
+          "device_selection": "Select devices to configure"
+        },
+        "description": "Select what configuration steps to process",
+        "title": "OneWire Device Options"
+      },
+      "configure_device": {
+        "data": {
+          "precision": "Sensor Precision"
+        },
+        "description": "Select sensor precision for {sensor_id}",
+        "title": "OneWire Sensor Precision"
+      }
+    }
+  }
+}
