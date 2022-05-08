@@ -1,5 +1,5 @@
 {
-  "name": "onewrie-sysbus",
+  "name": "onewire-sysbus",
   "country": ["EN"],
   "domains": ["sensor"],
   "render_readme": true
