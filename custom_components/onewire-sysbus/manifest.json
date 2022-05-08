@@ -6,5 +6,6 @@
   "requirements": ["pyownet==0.10.0.post1", "pi1wire==0.1.0"],
   "codeowners": ["@turbokongen"],
   "iot_class": "local_polling",
-  "loggers": ["pi1wire", "pyownet"]
+  "loggers": ["pi1wire", "pyownet"],
+  "version": "0.0.1"
 }
