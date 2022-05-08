@@ -1,6 +1,6 @@
 {
   "domain": "onewire-sysbus",
-  "name": "1-Wire",
+  "name": "1-Wire-Sysbus",
   "documentation": "https://www.home-assistant.io/integrations/onewire",
   "config_flow": true,
   "requirements": ["pyownet==0.10.0.post1", "pi1wire==0.1.0"],
